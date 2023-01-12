@@ -94,7 +94,7 @@ struct POPUP2: View {
                             .foregroundColor(Color("darkblue"))
                             .font(.title2.bold())
                             .padding(.horizontal, 40.0)
-                            .padding(.bottom, 70)
+                            .padding(.bottom, 40)
                         }
                     }
                        .padding(.vertical)
@@ -105,7 +105,7 @@ struct POPUP2: View {
                         
                         rate2()
                             .frame(width: 370,height: 100)
-                        .padding(.bottom, 50)
+                        .padding(.bottom, 40)
                         
                     }
                         
@@ -118,7 +118,7 @@ struct POPUP2: View {
                         .foregroundColor(Color("page"))
                         .background(Color("darkblue"))
                         .cornerRadius(15)
-                        .padding()
+                      //  .padding()
                         
                         
                         

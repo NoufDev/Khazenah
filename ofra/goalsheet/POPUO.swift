@@ -61,7 +61,7 @@ struct POPUO: View {
                                 Image(systemName: "xmark")
                                     .foregroundColor(Color("darkblue"))
                                     .font(.title)
-                                    .padding(.bottom, 20)
+                                    .padding(.top,10)
                                 
                             })
                         }
@@ -77,12 +77,12 @@ struct POPUO: View {
                 .padding()
                             TextField("What is the target value you want:", text: $valuegol)
                                         .textFieldStyle(.plain)
-                                        .frame(height: 25)
-                                        .clipShape(Capsule())
-                                        .padding()
+                .frame(height: 25)
+                        .clipShape(Capsule())
+                            .padding()
             .overlay(RoundedRectangle(cornerRadius:15.0).strokeBorder(Color("darkblue"), style: StrokeStyle(lineWidth: 2.0)))
                                        .padding()
-                                      .padding(.bottom, 20)
+                        .padding(.bottom, 20)
                             
                             
                             
@@ -92,7 +92,7 @@ struct POPUO: View {
                             .foregroundColor(Color("darkblue"))
                             .font(.title2.bold())
                             .padding(.horizontal, 40.0)
-                            .padding(.bottom, 45)
+                            .padding(.bottom, 40)
                         }
                           //  .padding(.vertical)
                             Text("Add Photo :")
@@ -100,7 +100,7 @@ struct POPUO: View {
                             .font(.title2.bold())
                         UploadAnImage()
                             .frame(width: 30,height: 150)
-                           .padding(.bottom, 50)
+                           .padding(.bottom, 30)
                         
                         
                         Button("Add goal") {
@@ -111,7 +111,7 @@ struct POPUO: View {
                         .foregroundColor(Color("page"))
                         .background(Color("darkblue"))
                         .cornerRadius(15)
-                        .padding()
+                       // .padding()
                         
                     }.padding(.horizontal)
                     
