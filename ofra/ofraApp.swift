@@ -11,7 +11,7 @@ import SwiftUI
 struct ofraApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            POPUO()
         }
     }
 }
