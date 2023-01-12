@@ -99,7 +99,7 @@ struct POPUP2: View {
                     }
                        .padding(.vertical)
                     VStack{
-                        Text("savings Value :")
+                        Text("Savings Value :")
                             .foregroundColor(Color("darkblue"))
                             .font(.title2.bold())
                         
@@ -110,7 +110,7 @@ struct POPUP2: View {
                     }
                         
                         
-                        Button("Add goal") {
+                        Button("Add plan") {
                             /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
                         }
                         .frame(width:160, height: 55)
